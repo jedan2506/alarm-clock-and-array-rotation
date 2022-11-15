@@ -37,10 +37,10 @@ class shift:
         
         if(self.d==0):
             self.arr=self.arr[self.p:]+self.arr[0:self.p]
-            print(self.arr)
+            print("Rotated Array:: "+str(self.arr))
         else:
-            self.arr = self.arr[(self.n-self.p):]+self.arr[0:(self.n-self.p)
-            print(self.arr)
+            self.arr = self.arr[(self.n-self.p):]+self.arr[0:(self.n-self.p)]
+            print("Rotated Array:: "+str(self.arr))
     
         
 ob=shift()
